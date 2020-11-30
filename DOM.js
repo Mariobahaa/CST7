@@ -1,4 +1,4 @@
-//change list style type
+        //change list style type
         document.getElementById("nav").style.listStyleType = "circle";
         
         //make a copy of bear image
