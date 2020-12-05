@@ -1,0 +1,29 @@
+#arena{
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cadetblue;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.lb{
+    position: absolute;
+    left :10px;
+    top: 183px;
+}
+
+.rb{
+    position: absolute;
+    left:370px;
+    top: 183px;
+}
+
+.tm{
+    position: absolute;
+    top : 15px;
+
+}
