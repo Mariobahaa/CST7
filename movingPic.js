@@ -1,6 +1,6 @@
  function writeIc1() {
      getComputedStyle(document.getElementById("ic1")).left;
-     document.getElementById("p1").innerText = "<img src= \"" + document.getElementById("ic1").src +
+     document.getElementById("p1").innerText = "<img src= \"" + document.getElementById("ic1").getAttribute("src") +
          "\" left= " + getComputedStyle(document.getElementById("ic1")).left + "/>";
      document.getElementById("p1").style.color = "blue";
  }
@@ -8,7 +8,7 @@
 
  function writeIc2() {
      getComputedStyle(document.getElementById("ic2")).left;
-     document.getElementById("p2").innerText = "<img src= \"" + document.getElementById("ic2").src +
+     document.getElementById("p2").innerText = "<img src= \"" + document.getElementById("ic2").getAttribute("src") +
          "\" left= " + getComputedStyle(document.getElementById("ic2")).left + "/>";
      document.getElementById("p2").style.color = "blue";
  }
